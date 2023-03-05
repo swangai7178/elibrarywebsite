@@ -144,10 +144,13 @@
                         <center>
                            <div class="form-group" style="padding-top:10px;">
                               <asp:Button class="btn btn-primary btn-info btn-lg" ID="Button1" runat="server" Text="Register" />
+
                            </div>
+
                         </center>
                      </div>
                   </div>
+                   <a href="loginpage.aspx"><input class="btn btn-info btn-block btn-lg" id="Button2" type="button" value="Sign In" /></a>
                </div>
             </div>
             <a href="homepage.aspx"><< Back to Home</a><br><br>
