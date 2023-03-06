@@ -127,15 +127,15 @@
                   <div class="row">
                    
                      <div class="col-md-6">
-                        <label>Email</label>
+                        <label>User Id</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Email ID" TextMode="Password" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="User ID" TextMode="Email" ></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-6">
                         <label>Password</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox10" runat="server" placeholder="Email ID" TextMode="Password"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox10" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
                         </div>
                      </div>
                   </div>
@@ -150,7 +150,7 @@
                         </center>
                      </div>
                   </div>
-                   <a href="loginpage.aspx"><input class="btn btn-info btn-block btn-lg" id="Button2" type="button" value="Sign In" /></a>
+                  
                </div>
             </div>
             <a href="homepage.aspx"><< Back to Home</a><br><br>
