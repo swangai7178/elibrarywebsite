@@ -19,7 +19,7 @@
                         <center>
                            <h4>Your Profile</h4>
                            <span>Account Status - </span>
-                           <asp:Label class="badge badge-pill badge-info" ID="Label1" runat="server" Text="Your status"></asp:Label>
+                           <asp:Label  ID="Label1" runat="server" Text="Your status"></asp:Label>
                         </center>
                      </div>
                   </div>
@@ -144,10 +144,10 @@
                      </div>
                   </div>
                   <div class="row">
-                     <div class="col-8 mx-auto">
+                     <div class="col-8 m-auto">
                         <center>
                            <div class="form-group" style="padding-top:15px;">
-                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Update" />
+                              <asp:Button class="btn btn-primary btn-toolbar" ID="Button1" runat="server" Text="Update" />
                            </div>
                         </center>
                      </div>
@@ -170,7 +170,7 @@
                      <div class="col">
                         <center>
                            <h4>Your Issued Books</h4>
-                           <asp:Label class="badge badge-pill badge-info" ID="Label2" runat="server" Text="your books info"></asp:Label>
+                           <asp:Label  ID="Label2" runat="server" Text="your books info"></asp:Label>
                         </center>
                      </div>
                   </div>

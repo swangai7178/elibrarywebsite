@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="aboutus.aspx" />
     <Content Include="adminloginpage.aspx" />
+    <Content Include="authormanagement.aspx" />
+    <Content Include="bookissueadmin.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="bootstrap\js\jquery-3.6.3.min.js" />
@@ -2150,6 +2152,7 @@
     <Content Include="imgs\writer.png" />
     <Content Include="loginpage.aspx" />
     <Content Include="profilepage.aspx" />
+    <Content Include="publishermanagement.aspx" />
     <Content Include="termsandcondition.aspx" />
     <Content Include="usersignup.aspx" />
     <Content Include="Web.config" />
@@ -2169,6 +2172,20 @@
     </Compile>
     <Compile Include="adminloginpage.aspx.designer.cs">
       <DependentUpon>adminloginpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="authormanagement.aspx.cs">
+      <DependentUpon>authormanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="authormanagement.aspx.designer.cs">
+      <DependentUpon>authormanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bookissueadmin.aspx.cs">
+      <DependentUpon>bookissueadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookissueadmin.aspx.designer.cs">
+      <DependentUpon>bookissueadmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
@@ -2192,6 +2209,13 @@
       <DependentUpon>profilepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="publishermanagement.aspx.cs">
+      <DependentUpon>publishermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publishermanagement.aspx.designer.cs">
+      <DependentUpon>publishermanagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
