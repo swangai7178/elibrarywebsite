@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace elibrarysystem
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class membermanagement : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void LinkButton6_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("adminloginpage.aspx");
         }
     }
 }

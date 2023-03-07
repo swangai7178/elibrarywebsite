@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutus.aspx" />
+    <Content Include="adminbookinventory.aspx" />
     <Content Include="adminloginpage.aspx" />
     <Content Include="authormanagement.aspx" />
     <Content Include="bookissueadmin.aspx" />
@@ -2151,6 +2152,7 @@
     <Content Include="imgs\sign-up.png" />
     <Content Include="imgs\writer.png" />
     <Content Include="loginpage.aspx" />
+    <Content Include="membermanagement.aspx" />
     <Content Include="profilepage.aspx" />
     <Content Include="publishermanagement.aspx" />
     <Content Include="termsandcondition.aspx" />
@@ -2165,6 +2167,13 @@
     </Compile>
     <Compile Include="aboutus.aspx.designer.cs">
       <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminbookinventory.aspx.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminbookinventory.aspx.designer.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminloginpage.aspx.cs">
       <DependentUpon>adminloginpage.aspx</DependentUpon>
@@ -2200,6 +2209,13 @@
     </Compile>
     <Compile Include="loginpage.aspx.designer.cs">
       <DependentUpon>loginpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="membermanagement.aspx.cs">
+      <DependentUpon>membermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="membermanagement.aspx.designer.cs">
+      <DependentUpon>membermanagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="profilepage.aspx.cs">
       <DependentUpon>profilepage.aspx</DependentUpon>
