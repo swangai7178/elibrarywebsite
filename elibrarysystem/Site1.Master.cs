@@ -18,5 +18,45 @@ namespace elibrarysystem
         {
             Response.Redirect("adminloginpage.aspx");
         }
+
+        protected void LinkButton11_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("authormanagement.aspx");
+        }
+
+        protected void LinkButton12_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("publishermanagement.aspx");
+        }
+
+        protected void LinkButton8_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("adminbookinventory.aspx");
+        }
+
+        protected void LinkButton9_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("bookissueadmin.aspx");
+        }
+
+        protected void LinkButton10_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("membermanagement.aspx");
+        }
+
+        protected void LinkButton4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("loginpage.aspx");
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("loginpage.aspx");
+        }
+
+        protected void LinkButton2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("usersignup.aspx");
+        }
     }
 }

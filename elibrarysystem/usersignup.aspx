@@ -133,13 +133,13 @@
                      <div class="col-md-6">
                         <label>User Id</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="User ID" TextMode="Email" ></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="Member ID" TextMode="Email" ></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-6">
                         <label>Password</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox10" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox9" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
                         </div>
                      </div>
                   </div>
@@ -147,7 +147,7 @@
                      <div class="col-8 m-auto">
                         <center>
                            <div class="form-group" style="padding-top:10px;">
-                              <asp:Button class="btn btn-primary btn-info btn-lg" ID="Button1" runat="server" Text="Register" />
+                              <asp:Button class="btn btn-primary btn-info btn-lg" ID="Button1" runat="server" Text="Register" OnClick="Button1_Click" />
 
                            </div>
 
@@ -157,11 +157,14 @@
                   
                </div>
             </div>
-            <a href="homepage.aspx"><< Back to Home</a><br><br>
+            <a href="homepage.aspx">Back to Home</a><br><br>
          </div>
          
       </div>
    </div>
+      
+   
+    </a>
       
    
 </asp:Content>
