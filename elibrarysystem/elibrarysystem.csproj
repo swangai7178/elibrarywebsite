@@ -2155,6 +2155,7 @@
     <Content Include="membermanagement.aspx" />
     <Content Include="profilepage.aspx" />
     <Content Include="publishermanagement.aspx" />
+    <Content Include="registeradmin.aspx" />
     <Content Include="termsandcondition.aspx" />
     <Content Include="usersignup.aspx" />
     <Content Include="Web.config" />
@@ -2231,6 +2232,13 @@
     </Compile>
     <Compile Include="publishermanagement.aspx.designer.cs">
       <DependentUpon>publishermanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registeradmin.aspx.cs">
+      <DependentUpon>registeradmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registeradmin.aspx.designer.cs">
+      <DependentUpon>registeradmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
