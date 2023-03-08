@@ -28,7 +28,7 @@
                   </div>
                   <div class="row">
                      <div class="col">
-                        <label>Admin ID</label>
+                        <label>Admin Username</label>
                         <div class="form-group">
                            <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Admin ID"></asp:TextBox>
                         </div>
@@ -43,7 +43,7 @@
                   </div>
                </div>
             </div>
-            <a href="homepage.aspx"><< Back to Home</a><br><br>
+            <a href="homepage.aspx">Back to Home</a><br><br>
          </div>
       </div>
    </div>
