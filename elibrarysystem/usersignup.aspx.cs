@@ -20,16 +20,25 @@ namespace elibrarysystem
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //  Response.Write("<script>alert('Testing');</script>");
-            if (checkMemberExists())
+            if (String.IsNullOrWhiteSpace(TextBox1.Text) || String.IsNullOrWhiteSpace(TextBox2.Text) || String.IsNullOrWhiteSpace(TextBox3.Text) || String.IsNullOrWhiteSpace(TextBox4.Text) || String.IsNullOrWhiteSpace(TextBox5.Text) || String.IsNullOrWhiteSpace(TextBox6.Text) || String.IsNullOrWhiteSpace(TextBox7.Text)|| String.IsNullOrWhiteSpace(TextBox8.Text)|| String.IsNullOrWhiteSpace(TextBox9.Text) || String.IsNullOrWhiteSpace(DropDownList1.SelectedValue))
             {
-
-                Response.Write("<script>alert('Member Already Exist with this Member ID, try other ID');</script>");
+                Response.Write("<script>alert('Fill in the form');</script>");
             }
             else
             {
-                signUpNewMember();
+                if (checkMemberExists())
+                {
+
+                    Response.Write("<script>alert('Member Already Exist with this Member ID, try other ID');</script>");
+                }
+                else
+                {
+                    signUpNewMember();
+                }
+
+
             }
+          
             bool checkMemberExists()
             {
                 try
