@@ -131,9 +131,9 @@
                   <div class="row">
                    
                      <div class="col-md-6">
-                        <label>User Id</label>
+                        <label>Member Id</label>
                         <div class="form-group">
-                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="Member ID" TextMode="Email" ></asp:TextBox>
+                           <asp:TextBox class="form-control" ID="TextBox8" runat="server" placeholder="Member ID" ></asp:TextBox>
                         </div>
                      </div>
                      <div class="col-md-6">
