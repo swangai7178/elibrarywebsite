@@ -17,7 +17,7 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <h3>Admin </h3>
+                           <h3>Admin Page</h3>
                         </center>
                      </div>
                   </div>
@@ -43,7 +43,7 @@
                   </div>
                </div>
             </div>
-            <a href="homepage.aspx">Back to Home</a><br><br>
+            <a href="homepage.aspx">Home</a><br><br>
          </div>
       </div>
    </div>
