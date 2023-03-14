@@ -54,8 +54,8 @@
                         <div class="form-group">
                            <asp:DropDownList class="form-control" ID="DropDownList1" runat="server">
                               <asp:ListItem Text="English" Value="English" />
-                              <asp:ListItem Text="Hindi" Value="Hindi" />
-                              <asp:ListItem Text="Marathi" Value="Marathi" />
+                              <asp:ListItem Text="Kiswahili" Value="Kiswahili" />
+                              <asp:ListItem Text="Mandarin" Value="Marathi" />
                               <asp:ListItem Text="French" Value="French" />
                               <asp:ListItem Text="German" Value="German" />
                               <asp:ListItem Text="Urdu" Value="Urdu" />
