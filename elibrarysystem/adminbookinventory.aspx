@@ -55,7 +55,7 @@
                            <asp:DropDownList class="form-control" ID="DropDownList1" runat="server">
                               <asp:ListItem Text="English" Value="English" />
                               <asp:ListItem Text="Kiswahili" Value="Kiswahili" />
-                              <asp:ListItem Text="Mandarin" Value="Marathi" />
+                              <asp:ListItem Text="Mandarin" Value="Mandarin" />
                               <asp:ListItem Text="French" Value="French" />
                               <asp:ListItem Text="German" Value="German" />
                               <asp:ListItem Text="Urdu" Value="Urdu" />
@@ -186,7 +186,7 @@
                   <div class="row">
                      <div class="col">
                         <center>
-                           <h4>Book Inventory List</h4>
+                           <h4>Book Inventory</h4>
                         </center>
                      </div>
                   </div>
