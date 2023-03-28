@@ -55,7 +55,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <label>Author Name</label>
+                                <label>Name</label>
                                 <div class="form-group">
                                     <asp:TextBox CssClass="form-control" ID="TextBox2" runat="server" placeholder="Author Name"></asp:TextBox>
 
