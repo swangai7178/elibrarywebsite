@@ -79,7 +79,7 @@
                     </div>
                 </div>
 
-                <a href="homepage.aspx"><< Back to Home</a><br>
+                <a href="homepage.aspx">Home</a><br>
                 <br>
             </div>
 
