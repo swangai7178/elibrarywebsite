@@ -20,6 +20,19 @@ namespace elibrarysystem
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            try
+            {
+                if (Session["username"].Equals(null))
+                {
+                    Response.Redirect("homepage.aspx");
+                }
+            }
+            catch(Exception ex)
+            {
+
+            }
+           
+
         }
 
         //add
@@ -27,11 +40,11 @@ namespace elibrarysystem
         {
             if (String.IsNullOrWhiteSpace(TextBox1.Text))
             {
-                Response.Write("<script>alert('Fill in the id');</script>");
+                Response.Write("<script>alert('Fill in the id of the book');</script>");
             }
             else if (String.IsNullOrWhiteSpace(TextBox2.Text))
             {
-                Response.Write("<script>alert('Fill in the Authors name');</script>");
+                Response.Write("<script>alert('Fill in the Authors name before submitting');</script>");
             }
             else
             {
