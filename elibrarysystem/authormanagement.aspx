@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="authormanagement.aspx.cs" Inherits="elibrarysystem.authormanagement" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
         <script type="text/javascript">
       $(document).ready(function () {
       
@@ -14,6 +15,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
      <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -24,7 +26,7 @@
                         <div class="row">
                             <div class="col">
                                 <center>
-                                        <h4>Author Details</h4>
+                                        <h4>Authors</h4>
                                     </center>
                             </div>
                         </div>
@@ -80,7 +82,7 @@
                     </div>
                 </div>
 
-                <a href="homepage.aspx">Home</a><br>
+                <a href="homepage.aspx">HomePage</a><br>
                 <br>
             </div>
 

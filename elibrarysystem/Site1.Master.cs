@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ *   Copyright (c) 2023 
+ *   All rights reserved.
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,6 +19,7 @@ namespace elibrarysystem
             {
                 if (Session["role"].Equals(null))
                 {
+                    Response.Redirect("homepage.aspx");
                     LinkButton1.Visible = true;
                     LinkButton2.Visible = true;
                     LinkButton3.Visible = false;
@@ -26,7 +31,10 @@ namespace elibrarysystem
                     LinkButton8.Visible = false;
                     LinkButton9.Visible = false;
                     LinkButton10.Visible = false;
-                }else if (Session["role"].Equals("user")){
+
+                   
+                }
+                else if (Session["role"].Equals("user")){
 
                     LinkButton1.Visible = false;
                     LinkButton2.Visible = false;
