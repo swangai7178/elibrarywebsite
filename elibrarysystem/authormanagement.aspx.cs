@@ -22,13 +22,13 @@ namespace elibrarysystem
 
             try
             {
-                if (Session["role"].Equals("admin"))
+                if (Session["role"].Equals(""))
                 {
-
+                    Response.Redirect("homepage.aspx");
                 }
                 else
                 {
-                    Response.Redirect("homepage.aspx");
+                   
                 }
             }
             catch(Exception ex)
